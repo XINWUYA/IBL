@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadHDRImage(将全景图转成CubeMap)", "LoadHDRImage\LoadHDRImage.vcxproj", "{A22C5F30-7D12-4C3C-B309-517968E1F48B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IBL_Diffuse", "IBL_Diffuse\IBL_Diffuse.vcxproj", "{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IBL", "IBL\IBL.vcxproj", "{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Debug|x64.ActiveCfg = Debug|x64
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Debug|x64.Build.0 = Debug|x64
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Debug|x86.Build.0 = Debug|Win32
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Release|x64.ActiveCfg = Release|x64
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Release|x64.Build.0 = Release|x64
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Release|x86.ActiveCfg = Release|Win32
+		{A22C5F30-7D12-4C3C-B309-517968E1F48B}.Release|x86.Build.0 = Release|Win32
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Debug|x64.ActiveCfg = Debug|x64
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Debug|x64.Build.0 = Debug|x64
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Debug|x86.ActiveCfg = Debug|Win32
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Debug|x86.Build.0 = Debug|Win32
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Release|x64.ActiveCfg = Release|x64
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Release|x64.Build.0 = Release|x64
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Release|x86.ActiveCfg = Release|Win32
+		{90CA093C-E7E3-41EA-A3AD-37FAA8F3437F}.Release|x86.Build.0 = Release|Win32
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Debug|x64.ActiveCfg = Debug|x64
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Debug|x64.Build.0 = Debug|x64
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Debug|x86.Build.0 = Debug|Win32
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Release|x64.ActiveCfg = Release|x64
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Release|x64.Build.0 = Release|x64
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Release|x86.ActiveCfg = Release|Win32
+		{93B1017E-7C57-4BC9-9DE8-5D2D1377D8DD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43DB9899-E3AD-4AF0-ABD5-5E260F2B80CD}
+	EndGlobalSection
+EndGlobal
